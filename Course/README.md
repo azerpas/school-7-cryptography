@@ -55,3 +55,10 @@ Se base sur un système de matrice
 - Clé privée `(p, q, d)`
 4. Alice **chiffre** un message `x`: `y ≡ x^e mod n`
 5. Bob **déchiffre** `y`: `x ≡ y^d mod n`
+
+### Signature
+#### Alice
+- Clé privée (p<sub>a</sub>, q<sub>a</sub>, d<sub>a</sub>)
+- Clé publique (n<sub>a</sub>, e<sub>a</sub>)
+
+#### Signature d'Alice
