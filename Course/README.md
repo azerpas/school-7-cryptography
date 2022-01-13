@@ -62,3 +62,16 @@ Se base sur un système de matrice
 - Clé publique (n<sub>a</sub>, e<sub>a</sub>)
 
 #### Signature d'Alice
+<!-- $$
+Sign(x) \equiv y \equiv x^{d_{a}} \mod n_{a}
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=Sign(x)%20%5Cequiv%20y%20%5Cequiv%20x%5E%7Bd_%7Ba%7D%7D%20%5Cmod%20n_%7Ba%7D"></div>
+
+#### Message signé
+(x, Sign(x))
+
+#### Vérification de la signature
+$$
+y^{e_{a}} \equiv x \mod n_{a}
+$$
