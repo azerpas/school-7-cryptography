@@ -77,3 +77,12 @@ y^{e_{a}} \equiv x \mod n_{a}
 $$ --> 
 
 <div align="center" style="background: white;"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=y%5E%7Be_%7Ba%7D%7D%20%5Cequiv%20x%20%5Cmod%20n_%7Ba%7D"></div>
+
+## Cryptographie moderne
+### Fonction de hachage
+Fonction à sens unique:    
+**message de longueur arbitraire** → **empreinte numérique de taille fixe**
+
+- MD5
+- SHA-1
+- SHA-256
