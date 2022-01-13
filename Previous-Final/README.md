@@ -3,9 +3,9 @@
 # 2021
 
 1. Quel objectif de sécurité garantit la cryptographie symétrique ?  
-- [] Authentification 
-- [] Confidentialité 
-- [] Authenticité 
+- [ ] Authentification 
+- [ ] Confidentialité 
+- [ ] Authenticité 
  
 2. Quel mode de chiffrement chiffre le message bit par bit et arrive à traiter des données de longueur quelconque 
 sans avoir à les découper ?   
