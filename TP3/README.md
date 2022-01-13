@@ -12,3 +12,15 @@ Service d'authentification, délivre un **TGT** (Ticket Granting Ticket).
 
 ### TGS (Ticket Granting Service)
 Fourni les tickets d'accès, TS (Ticket Service), aux différents services du réseau.
+
+## GPO - Stratégie des Groupes
+Automatiser la configuration des pc clients d'un domaine
+- Change password
+- Map network
+- Planned task
+
+## SYSVOL
+Stocke les objets GPO (.xml)
+
+## SMB
+Protocol de communication client / serveur qui permet partage de ressources avec authentification

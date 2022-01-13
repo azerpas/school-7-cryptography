@@ -14,33 +14,33 @@ sans avoir à les découper ?
 - [X] Chiffrement symétrique par flux 
  
 ## 3. Quelle opération n’est pas utilisée dans les cryptosystèmes symétriques ?  
-- [] Transposition de bits 
-- [] OU exclusif (XOR)  
+- [ ] Transposition de bits 
+- [ ] OU exclusif (XOR)  
 - [X] Logarithme discret 
  
 ## 4. En utilisant un cryptosystème asymétrique, quelle clé utilise-t-on pour signer un message ?  
-- [] La clé privée du destinataire   
+- [ ] La clé privée du destinataire   
 - [X] La clé privée de l’émetteur  
-- [] La clé publique du récepteur  
+- [ ] La clé publique du récepteur  
  
 ## 5. SSO est l’abréviation de : 
-- [] Single Signature On  
+- [ ] Single Signature On  
 - [X] Single Sign On 
-- [] Sign Single Once  
+- [ ] Sign Single Once  
  
 ## 6. KDC est l’abréviation de : 
-- [] Key Decentralized centre  
+- [ ] Key Decentralized centre  
 - [X] Key Distribution Center 
-- [] Kerberos Distributed Center   
+- [ ] Kerberos Distributed Center   
  
 ## 7. Dans le protocole Kerberos, quel service du KDC est en charge de délivrer le TGT (Ticket Granting Ticket) ?    
 - [X] Authentication service (AS) 
-- [] Ticket Granting Service (TGS) 
-- [] Ticket Service (TS) 
+- [ ] Ticket Granting Service (TGS) 
+- [ ] Ticket Service (TS) 
  
 ## 8. La suite cryptographique ci-dessous est-elle écrite correctement ? 
 TLS_ECDHE_AES_128_GCM_WITH_RSA_SHA256 
-- [] Oui 
+- [ ] Oui 
 - [X] Non  
 Justifiez votre réponse   
 ```
@@ -49,34 +49,34 @@ RSA devrait être placé avant AES_128_GCM.
 
 ## 9. Quel procédé permet le traitement des données sans avoir à les déchiffrer au préalable ?  
 - [X] Chiffrement homomorphe  
-- [] Chiffrement de bout en bout  
-- [] Chiffrement d’enveloppe 
+- [ ] Chiffrement de bout en bout  
+- [ ] Chiffrement d’enveloppe 
  
 ## 10. Dans quel système de communication, seules les personnes qui communiquent peuvent lire les messages 
 échangés ?  
-- [] Chiffrement homomorphe  
+- [ ] Chiffrement homomorphe  
 - [X] Chiffrement de bout en bout 
-- [] Chiffrement à seuil  
+- [ ] Chiffrement à seuil  
  
 ## 11. Quelle est la particularité de la signature aveugle ?   
-- [] Elle est signée par une entité secrète 
+- [ ] Elle est signée par une entité secrète 
 - [X] Elle est effectuée sur un document qui a été masqué auparavant 
-- [] C’est une signature qu’on ne peut pas vérifier  
+- [ ] C’est une signature qu’on ne peut pas vérifier  
  
 ## 12. Qu’est-ce qu’une clé éphémère ?    
-- [] Une clé qu’on peut utiliser pour la signature mais pas pour le chiffrement 
+- [ ] Une clé qu’on peut utiliser pour la signature mais pas pour le chiffrement 
 - [X] Une clé qui sera détruite après utilisation 
-- [] Une clé publique  
+- [ ] Une clé publique  
  
 ## 11. Quel  mode  de  chiffrement  permet  de  diviser  un  message  en  plusieurs  blocs.  Ces  blocs  sont  ensuite 
 chiffrés séparément les uns après les autres ? 
 - [X] CBC 
-- [] ECB    
+- [ ] ECB    
 ```Cipher Block Chaining```
  
 ## 12. Quel(s) objectif(s) de sécurité garantit un HMAC (keyed-hash message authentication code) ?  
-- [] Confidentialité  
-- [] Intégrité  
+- [ ] Confidentialité  
+- [ ] Intégrité  
 - [X] Intégrité et Authentification  
  
 ## 1. Donnez la définition d’une fonction de hachage.
@@ -156,13 +156,8 @@ Nous sommes dans un contexte RSA où l'on vise à définir clé publique / priv�
  
 ## 3. Une personne se trouvant entre Alice et Bob, peut-elle retrouver les valeurs a et b ?   
 - [X] Oui               
-- [] Non  
+- [ ] Non  
 Justifiez votre réponse 
 ```
 Si les valeurs de a et de b sont faibles, à l'aide de brute-force un attaquant pourrait retrouver les dites valeurs.
 ```
-
-
- 
- 
-  
